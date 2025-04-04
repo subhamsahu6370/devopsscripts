@@ -1,3 +1,5 @@
+use ubuntu with t2.medium 10 gb
+
 
 ## update the system packages
 sudo apt-get update
