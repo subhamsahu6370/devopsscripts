@@ -18,3 +18,4 @@ kops create cluster --name reyaz.k8s.local --zones ap-south-1a --master-count=1 
 kops update cluster --name reyaz.k8s.local --yes --admin
 
 #kops validate cluster --wait 10m
+#kops delete cluster --name reyaz.k8s.local --yes
